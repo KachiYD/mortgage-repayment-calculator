@@ -8,10 +8,29 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+
+    background-color: #e3f4fc;
 }
 
 .main-dialogue-box {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10vh;
+    height: 30em;
+}
+
+.calculator-box {
+    background-color: white;
+    color: #767f86;
+    height: 100%;
+    width: 50%;
+}
+
+.results-box {
+    background-color: #152f3f;
+    color: white;
+    height: 100%;
+    width: 50%;
+    
 }
