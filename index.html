@@ -15,20 +15,51 @@
 
   <div class="main-dialogue-box">
     <div class="calculator-box">
-      Mortgage Calculator
-      Clear All
+      <div class="calc-title-box">
+        <div class="calc-title">
+          Mortgage Calculator
+        </div>
+        <div class="clear-title">
+          Clear All
+        </div>
+      </div>
+
+      <div>
+        Mortgage Amount
+        <input/>
+      </div>
     
-      Mortgage Amount
+      <div>
+        <div>
+          Mortgage Term
+          <input>
+        </div>
+
+        <div>
+          Interest Rate
+          <input>
+        </div>
+      </div>
+
+      <div class="mortgage-type-container">
+        <p>Mortgage Type</p>
+        <label class="option">
+          <input type="radio" name="mortgage" value="repayment">
+          <span class="radio-custom"></span>
+          <span class="text">Repayment</span>
+        </label>
+
+        <label class="option">
+          <input type="radio" name="mortgage" value="interest-only">
+          <span class="radio-custom"></span>
+          <span class="text">Interest Only</span>
+        </label>
+      </div>
+      
     
-      Mortgage Term
-    
-      Interest Rate
-    
-      Mortgage Type
-      Repayment
-      Interest Only
-    
-      Calculate Repayments
+      <button class="submit-button">
+        Calculate Repayments
+      </button>
     </div>
 
     <div class="results-box">
