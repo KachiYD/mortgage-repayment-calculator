@@ -65,7 +65,7 @@ body {
     align-items: center;
     gap: 0.5em;
     padding: 0.8em;
-    border: 0.1em solid black;
+    border: 0.1em solid #6b7075;
     border-radius: 0.3em;
     cursor: pointer;
     width: auto;
@@ -114,6 +114,36 @@ body {
 
 .option input:checked ~ .option {
     background: #f7f7c5;
+}
+
+.mortgage-amount-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-amount-container {
+    display: flex;
+    align-items: center;
+    border: 0.1em solid #d4d656;
+    border-radius: 0.3em;
+    overflow: hidden;
+    width: auto;
+}
+
+.currency-symbol {
+    background-color: #d4d656;
+    padding: 0.6em 1em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input {
+    flex: 1;
+    padding: 0.6em;
+    width: auto;
+    outline: none;
+    border: none;
+    font-size: 1em;
 }
 
 .submit-button {
